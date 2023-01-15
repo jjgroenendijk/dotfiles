@@ -1,0 +1,44 @@
+# Font <name [size]>
+set $font "iosevka 12"		
+# Title background
+set $tb "#00000000"
+# Title foreground
+set $tf "#FFFFFFFF"
+# Filter background
+set $fb "#00000000"
+# Filter foreground
+set $ff "#FFFFFFFF"
+# Highlighted background
+set $hb "#8fbcbb00"
+# Highlighted foreground
+set $hf "#88c0d0FF"
+# Normal background
+set $nb "#00000000"
+# Normal foreground
+set $nf "#d8dee9FF"
+# Alternating background color
+set $ab "#00000000"
+# Alternating foreground color
+set $af "#d8dee9FF"
+
+set $menu bemenu-run --ignorecase --line-height "20" --prompt "RUN" --margin "200" \
+--fn $font \
+--tb $tb \
+--tf $tf \
+--fb $fb \
+--ff $ff \
+--hb $hb \
+--hf $hf \
+--nb $nb \
+--nf $nf \
+--ab $ab \
+--af $af \
+
+#--cb $cb \
+#--cf $cf \
+#--fbb $fbb \
+#--fbf $fbf \
+#--sb $sb \
+#--sf $sf \
+#--scb $scb \
+#--scf $scf
