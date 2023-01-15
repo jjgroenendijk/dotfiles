@@ -1,0 +1,4 @@
+#border 
+gaps inner		20
+hide_edge_borders	smart_no_gaps
+default_border		none
