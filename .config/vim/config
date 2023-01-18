@@ -1,0 +1,20 @@
+" turn syntax highlighting on
+syntax on
+
+" turn line numbers on
+set number
+" expand tabs to spaces
+set expandtab
+" tab width is 4 spaces
+set tabstop=4
+" indent also with 4 spaces
+set shiftwidth=4
+
+" wrap lines at 120 chars
+set textwidth=120
+" use indentation of previous line
+set autoindent
+" use intelligent indentation for C
+set smartindent
+" highlight matching braces
+set showmatch
