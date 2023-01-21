@@ -29,3 +29,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## load alias file
 source ~/.config/zsh/aliases
+
+## keybindings
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word

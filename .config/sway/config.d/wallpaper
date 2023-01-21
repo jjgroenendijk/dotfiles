@@ -1,0 +1,9 @@
+# Transform any picture to nord theme
+# https://ign.schrodinger-hat.it/
+# https://github.com/Schrodinger-Hat/ImageGoNord-pip
+
+## Set wallaper to static picture
+output "*" bg ~/.config/wallpaper-minimal.png fill
+
+## Set wallpaper to solid color
+#output "*" bg #000000 solid_color

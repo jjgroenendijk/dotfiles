@@ -1,5 +1,5 @@
 # Font <name [size]>
-set $font "iosevka 12"		
+set $font "Iosevka Term 12"
 # Title background
 set $tb "#00000000"
 # Title foreground
