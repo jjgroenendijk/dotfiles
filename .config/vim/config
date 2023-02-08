@@ -1,6 +1,9 @@
 " turn syntax highlighting on
 syntax on
 
+" turn indent plugin on
+filetype plugin indent on
+
 " turn line numbers on
 set number
 " expand tabs to spaces
@@ -18,3 +21,8 @@ set autoindent
 set smartindent
 " highlight matching braces
 set showmatch
+
+" Allow arrow key navigation
+set nocompatible
+" More powerful backspacing
+set backspace=indent,eol,start
