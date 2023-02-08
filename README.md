@@ -19,10 +19,10 @@ This is the basic setup for a dotfile git:
 Installing dotfiles on another machine. The file alias file might be different. On a fresh machine it's probably ~/.zshrc or ~/.bashrc
 
 ```
-  alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-  echo "alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.config/zsh/.zshrc
+  alias dotconfig='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+  echo "alias dotconfig='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.config/zsh/.zshrc
   echo ".dotfiles" >> .gitignore
-  git clone --bare git@github.com:jjgroenendijk/dotfiles.git $HOME/.dotfiles
+  git clone --bare https://github.com/jjgroenendijk/dotfiles.git $HOME/.dotfiles
   config checkout
 ```
 
