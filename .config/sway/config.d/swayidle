@@ -1,3 +1,7 @@
+## No idle when app is fullscreen
+for_window [class="^.*"] inhibit_idle fullscreen
+for_window [app_id="^.*"] inhibit_idle fullscreen
+
 ### Idle configuration
 #
 # Example configuration:

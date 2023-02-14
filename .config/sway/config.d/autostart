@@ -1,0 +1,5 @@
+## Auto start these programs on boot
+exec {
+	firefox
+	foot
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Export a list of installed packages
+
+[Service]
+Type=simple
+StandardOutput=journal
+ExecStart=/bin/sh -c 'pacman --query --explicit --quiet > "$HOME/.config/packages.txt"'
+
+[Install]
+WantedBy=multi-user.target
