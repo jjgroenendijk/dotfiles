@@ -1,0 +1,15 @@
+## Screenshot entire screen
+set $screenshotAll grim $HOME/screencapture/$(date +'screenshot_%Y-%m-%d-%H%M%S.png')
+bindsym $mod+p+shift exec $screenshotAll 
+
+## Screenshot part of screen
+set $screenshotSelected grim -g "$(slurp)" $HOME/screencapture/$(date +'screenshot_%Y-%m-%d-%H%M%S.png')
+bindsym $mod+p exec $screenshotSelected
+
+## Record entire screen
+set $screenRecordAll wf-recorder -f $HOME/screencapture/$(date +'recording_%Y-%m-%d-%H%M%S.mkv')
+bindsym $mod+o+shift exec $screenRecordAll
+
+## Record part of screen
+set $screenRecordSelected wf-recorder -g "$(slurp)" -f $HOME/screencapture/$(date +'recording_%Y-%m-%d-%H%M%S.mkv');
+bindsym $mod+o exec $screenRecordSelected

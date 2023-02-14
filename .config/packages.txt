@@ -3,7 +3,6 @@ base
 base-devel
 bemenu-wayland
 cabextract
-discord
 dmenu
 efibootmgr
 evtest
@@ -22,6 +21,7 @@ light
 linux
 linux-firmware
 man-db
+mpv
 nano
 ncdu
 neofetch
@@ -49,6 +49,7 @@ ttf-liberation
 vim
 vulkan-radeon
 waybar
+wf-recorder
 wget
 wireplumber
 xdg-utils
