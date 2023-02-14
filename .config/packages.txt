@@ -23,6 +23,7 @@ linux
 linux-firmware
 man-db
 nano
+ncdu
 neofetch
 nordic-polar-theme
 openssh

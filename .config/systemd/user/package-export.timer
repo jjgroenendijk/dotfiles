@@ -1,0 +1,9 @@
+[Unit]
+Description=Export a list of installed packages weekly
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
