@@ -26,3 +26,6 @@ set showmatch
 set nocompatible
 " More powerful backspacing
 set backspace=indent,eol,start
+
+" Change .viminfo folder location
+set viminfo+=n~/.config/vim/.viminfo
