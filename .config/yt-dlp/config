@@ -23,3 +23,6 @@
 
 # output format
 --output "%(title)s.%(ext)s"
+
+# keep track of downloads in this archive file
+--download-archive $HOME/.config/yt-dlp/archive.txt

@@ -4,3 +4,5 @@
 --convert-subs srt
 --embed-chapters
 --embed-info-json
+--format "bv+ba/b"
+--recode-video mp4
