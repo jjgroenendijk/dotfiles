@@ -2,3 +2,6 @@
 
 # extract audio from media file
 --extract-audio
+
+# format to use for audio files
+--audio-format m4a
