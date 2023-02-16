@@ -1,0 +1,8 @@
+## No idle when app is fullscreen
+for_window [class="^.*"] inhibit_idle fullscreen
+for_window [app_id="^.*"] inhibit_idle fullscreen
+
+## Turn off screen after 5 minutes of inactivity. No locking
+exec swayidle -w \
+          timeout 300 'swaymsg "output * power off"' \
+          resume 'swaymsg "output * power on"' 
