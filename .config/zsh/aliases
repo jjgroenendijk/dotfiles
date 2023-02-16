@@ -1,5 +1,9 @@
 alias dotconfig="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias ls="ls -alh --color=auto"
 alias vim="vim -u ~/.config/vim/config"
+
 alias markexplicit="pacman --database --asexplicit"
 alias markimplicit="pacman --database --asdeps"
+
+alias yt-video="yt-dlp --config-locations $HOME/.config/yt-dlp/config --config-locations $HOME/.config/yt-dlp/video"
+alias yt-audio="yt-dlp --config-locations $HOME/.config/yt-dlp/config --config-locations $HOME/.config/yt-dlp/audio"

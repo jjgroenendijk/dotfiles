@@ -1,0 +1,25 @@
+# This file is for the general config of yt-dlp.
+# These settings will apply to audio and video downloads
+# Video specific configuration is located in $HOME/.config/yt-dlp/video
+# Audio specific conifguration is located in $HOME/.config/yt-dlp/audio
+
+# block emojis 'n stuff. replaces spaces with underscores.
+--restrict-filenames
+
+# show progress bar
+--progress
+
+# mute verbose messages
+#--quiet
+
+# continue previous download
+--continue
+
+# put the thumbnail in final download
+--embed-thumbnail
+
+# embed media metadata in output
+--embed-metadata
+
+# output format
+--output "%(title)s.%(ext)s"

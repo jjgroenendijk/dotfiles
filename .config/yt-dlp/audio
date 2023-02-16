@@ -1,0 +1,4 @@
+# audio specific configuration for yt-dlp
+
+# extract audio from media file
+--extract-audio

@@ -1,0 +1,6 @@
+# video specific configuration for yt-dlp
+
+--embed-subs
+--convert-subs srt
+--embed-chapters
+--embed-info-json
