@@ -3,6 +3,7 @@
 --embed-subs
 --convert-subs srt
 --embed-chapters
---embed-info-json
---format "bv+ba/b"
---recode-video mp4
+--format "bv[ext=mp4]+ba/b[ext=mp4]"
+--postprocessor-args "Merger:-c:a aac"
+--merge-output-format mp4
+#--remux-video mp4

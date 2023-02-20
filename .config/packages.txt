@@ -7,7 +7,9 @@ dmenu
 efibootmgr
 evtest
 feh
+ffmpeg
 firefox
+firewalld
 foot
 fwupd
 git
@@ -25,6 +27,7 @@ mpv
 nano
 ncdu
 neofetch
+nfs-utils
 nordic-polar-theme
 openssh
 pavucontrol
@@ -34,6 +37,7 @@ pipewire-jack
 pipewire-pulse
 polkit
 proton-ge-custom-bin
+python-mutagen
 reflector
 slurp
 spotify-launcher
@@ -43,6 +47,7 @@ swaybg
 swayidle
 swaylock
 tailscale
+tmux
 tree
 ttf-iosevka-nerd
 ttf-liberation
@@ -52,6 +57,7 @@ waybar
 wf-recorder
 wget
 wireplumber
+wl-clipboard
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
@@ -60,6 +66,7 @@ xorg-server
 xorg-xinit
 xorg-xwayland
 yay
+yt-dlp
 zram-generator
 zsh
 zsh-autosuggestions
